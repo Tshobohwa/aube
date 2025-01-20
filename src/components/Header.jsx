@@ -27,6 +27,13 @@ const Header = () => {
               <p>our works</p>
             </Link>
           </li>
+          <li>
+            <Link to={"/"}>
+              <div className="p-2 border-2 border-white">
+                <p>contact us</p>
+              </div>
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
