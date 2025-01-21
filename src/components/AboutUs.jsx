@@ -15,9 +15,9 @@ const AboutUs = () => {
         <ServiceCard title={"Development web"} />
         <ServiceCard title={"Development Mobile"} />
         <ServiceCard title={"Consultation IT"} />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        <ServiceCard title={"Creation des pages web"} />
+        <ServiceCard title={"Modernisation des systemes existants"} />
+        <ServiceCard title={"Cyber securitee"} />
       </div>
     </div>
   );
