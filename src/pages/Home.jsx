@@ -4,10 +4,19 @@ import AboutUs from "../components/AboutUs";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full">
       <Header />
-      <p>Home</p>
-      <h2>Nous donnons vie a vos projet de logiciels</h2>
+      <section className="h-[100vh] w-full flex items-center justify-center bg-secondary-400">
+        <div className="flex flex-col items-center">
+          <h1 className="text-[5rem] font-zen-dots text-primary-950">aube</h1>
+          <p className="mt-[-2rem] font-poppins">
+            compagnie de development de logiciels
+          </p>
+          <h2 className="font-work">
+            Nous donnons vie aux logiciels dont vous revez!
+          </h2>
+        </div>
+      </section>
       <AboutUs />
     </div>
   );

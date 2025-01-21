@@ -3,34 +3,34 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full h-[6rem] bg-primary-950 flex items-center p-4 justify-between">
+    <header className="w-full h-[6rem] bg-primary-950 flex items-center p-4 justify-between fixed top-0">
       <h1 className="font-zen-dots text-white text-xl">aube</h1>
       <nav className="font-poppins text-secondary-100">
         <ul className="flex items-center gap-4">
           <li>
             <Link to={"/"}>
-              <p>home</p>
+              <p>Acceuil</p>
             </Link>
           </li>
           <li>
             <Link to={"/"}>
-              <p>about us</p>
+              <p>a propos de nous</p>
             </Link>
           </li>
           <li>
             <Link to={"/"}>
-              <p>services</p>
+              <p>nos services</p>
             </Link>
           </li>
           <li>
             <Link to={"/"}>
-              <p>our works</p>
+              <p>nos travaux</p>
             </Link>
           </li>
           <li>
             <Link to={"/"}>
               <div className="p-2 border-2 border-white">
-                <p>contact us</p>
+                <p>contactez-nous</p>
               </div>
             </Link>
           </li>
