@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import AboutUs from "../components/AboutUs";
+import OurWorks from "../components/OurWorks";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
         </div>
       </section>
       <AboutUs />
+      <OurWorks />
     </div>
   );
 };
